@@ -3,9 +3,7 @@ a, a:hover, a:active{
     text-decoration: none;
     color: white
 }
-span{
-    font-weight: bold;
-}
+
 .italic{
 font-style: italic;
 }
@@ -22,17 +20,15 @@ font-style: italic;
 }
 h3{
     margin: 0;
-
     font-size: 1.5vw;
     margin-top: 3vh;
 }
-
 .bleu{
     background-color: rgb(34,71,98);
     color: white;
 }
 .gris{
-    background-color: rgb(242,242,242);
+    background-color: rgba(242, 242, 242, 0.829);
     color: black;
 }
 .bleuclair{
@@ -95,7 +91,12 @@ img[alt='point']{
 
 .text{
     padding: 3vh;
-
+    font-weight: 500;
+    font-size: 1.5vh;
+    text-align: justify;
+}
+.text span{
+    font-weight: 700;
 }
 
 .gd{
