@@ -3,6 +3,10 @@
     background-color: rgb(34,71,98);
     color: white;
 }
+a, a:hover, a:active{
+    text-decoration: none;
+    color: white
+}
 h1,h2{
     text-align: center;
 }
