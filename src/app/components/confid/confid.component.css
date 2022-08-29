@@ -1,0 +1,24 @@
+.confid{
+    width: 100vw;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(rgb(34,71,98),rgb(65,117,134));
+}
+.confid div{
+    margin: auto;
+    font-size: 1.6vh;
+    padding: 2vh;
+    width: 900px;
+}
+.container{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 100vw;
+}
+
+.espace{
+    position: relative;
+    left: 30px
+    ;
+}

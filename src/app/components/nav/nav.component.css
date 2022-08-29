@@ -1,0 +1,37 @@
+
+.nav{
+    background-color: rgb(34,71,98);
+    color: white;
+}
+h1,h2{
+    text-align: center;
+}
+h1,h2{
+    margin: 0;
+}
+h1{
+    font-size:6vh;
+    font-family: 'ethnocentric';
+   padding-top: 4vh;
+}
+h2{font-size: 1vw; font-weight: 700;
+padding-bottom: 4vh;}
+
+.navbarre{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 18px;
+    font-weight: 600;
+    font-size: .85vw;
+}
+.navbarre div{
+    width: auto;
+    display: inline-block;
+    text-align: center;
+margin-left:1.5vw;
+margin-right:1.5vw;
+
+}
+.navbarre div:hover{
+    color: rgba(255,255,255,0.5);
+}

@@ -1,0 +1,26 @@
+
+.footer{
+    height: 6vh;
+    width: 100vw;
+    background-color: rgb(15,41,60);
+    color: white;
+}
+.footer div{
+    height: 2.5vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .7vw;
+}
+.footer div div {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    width: auto;
+    background-color: rgba(144,163,177,0.6);
+}
+.footer div div:hover{
+    background-color: rgba(144,163,177,1);
+}

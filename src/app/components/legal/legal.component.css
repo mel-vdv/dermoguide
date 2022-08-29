@@ -1,0 +1,19 @@
+.legal{
+    height: 62vh;
+    font-size: 1vw;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(rgb(34,71,98),rgb(25, 85, 90));
+}
+.legal div{
+    margin: auto;
+    text-align: center;
+    padding: 2vh;
+    width: 900px;
+}
+.container{
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100vh;
+}

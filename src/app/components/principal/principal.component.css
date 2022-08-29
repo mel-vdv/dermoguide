@@ -1,0 +1,95 @@
+
+a, a:hover, a:active{
+    text-decoration: none;
+    color: white
+}
+span{
+    font-weight: bold;
+}
+.italic{
+font-style: italic;
+}
+ .souligne{
+    text-decoration: underline;
+}
+.contain{
+    padding: 5vh;
+}
+.contain div{
+   width: 1000px;
+    margin: auto;
+   
+}
+h3{
+    margin: 0;
+
+    font-size: 1.5vw;
+    margin-top: 3vh;
+}
+
+.bleu{
+    background-color: rgb(34,71,98);
+    color: white;
+}
+.gris{
+    background-color: rgb(242,242,242);
+    color: black;
+}
+.bleuclair{
+    background-color: rgb(207,223,242);
+    color: black;
+}
+#session{
+    width: 1100px;
+    box-sizing: border-box;
+    height: 100px;
+    border-bottom:rgb(236,156,47) solid 2px;
+    border-top:rgb(236,156,47) solid 2px;
+    display: flex; 
+    align-items: center; justify-content: center;
+}
+.bouton{
+    box-sizing: border-box;
+    display: flex; align-items: center;justify-content: center;
+    max-width:25vw;
+    height: 5vh;
+    font-weight: 600;
+    padding: 3mm;
+    border: white .2mm solid;
+    background-color: rgb(7,65,81);
+}
+.bouton:hover{
+    background-color: rgb(65,117,134);
+    border: solid .2mm rgb(65,117,134);
+}
+.bouton:hover + .bouton span{
+    color: black;
+}
+
+img[alt='point']{
+    height:25vh;
+    display: block;
+    margin: auto;
+}
+    img[alt='marronnier']{
+        width:15vw;
+        float: rigth;
+    }
+    img[alt='anne']{
+        width:20vh;
+        margin-left: 10vh;
+        display: block;
+    }
+
+
+.text{
+    padding: 3vh;
+
+}
+
+.gd{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
