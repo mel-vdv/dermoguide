@@ -2,6 +2,7 @@
 .nav{
     background-color: rgb(34,71,98);
     color: white;
+   
 }
 a, a:hover, a:active{
     text-decoration: none;
@@ -40,8 +41,17 @@ margin-right:1.5vw;
 }
 
 @media screen and (max-width:999px){
+   
     .navbarre div{
         font-size: 3vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .navbarre{
+        width: 97vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     h2{
         font-size: 2vh;

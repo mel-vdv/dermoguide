@@ -87,17 +87,13 @@ img[alt='point']{
     align-items: center;
     justify-content: space-around;
 }
-.text{
-    padding: 3vh;
-    font-weight: 500;
-    font-size: 1.5vh;
-    text-align: justify;
-}
+
 @media screen and (max-width:999px){
  
-    
+
     .text{
     width: 90vw;
+    text-align: justify;
     padding: 4vw;
     margin: 0;
     word-wrap: break-word;
@@ -105,8 +101,9 @@ img[alt='point']{
 
     }
     .contain div{
+
         margin:0;
-        width: 85vw;
+        width: 90vw;
     }
     .contain h3{
         font-size: 5vw;
@@ -114,7 +111,13 @@ img[alt='point']{
         padding-top: 5vw;
         margin: 0;
     }
+    .lieu .text, .propos .text{
+        position: relative;
+        left: 2vw;
+        width: 90vw;
+    }
     .bouton{
+        margin: auto;
  max-width:65vw;
  height: 5vh;
  font-size: 4vw;
@@ -124,17 +127,27 @@ img[alt='point']{
         height: 12vw;
     }
     #sessionbas{
-        width: 90vw;
+        width: 95vw;
         height: 12vw;
     }
     img[alt='fleche']{
-        width: 9vw;
+        width: 10vw;
     }  
      .gd{
+        margin:0; width: 90vw;
         flex-direction: column;
+        
     }
-    img[alt='anne'], img[alt='marronnier']{
+    .gd .text {
+        padding: 4vw;
+    }
+    img[alt='anne']{
         width: 45vw;
+        display: block;
+        margin: auto;
+    }
+    img[alt='marronnier']{
+        width: 65vw;
         display: block;
         margin: auto;
     }

@@ -17,3 +17,10 @@
     left:0px;
     height: 100vh;
 }
+@media screen and (max-width:999px) {
+    .legal div{
+        width: 90vw;
+        font-size: 3.5vw;
+        padding: 5vw;
+    }
+}

@@ -19,6 +19,28 @@
 
 .espace{
     position: relative;
-    left: 30px
+    left: 30px;
+    padding: 2vw
     ;
+}
+@media screen and (max-width:999px) {
+    .confid div{
+width: 90vw;
+font-size: 3vw;
+padding:5vw ;
+    }
+    
+   
+   .espace{
+    width: 50vw;
+    position: relative;
+    left: 5vw;
+   }
+   #shit, #shit2{
+    width: 45vw;
+    position: relative;
+    left: 5vw;
+   
+   }
+   
 }
