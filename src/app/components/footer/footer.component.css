@@ -24,3 +24,10 @@
 .footer div div:hover{
     background-color: rgba(144,163,177,1);
 }
+
+
+@media screen and (max-width:999px){
+.footer div{
+    font-size: 2vw;
+}
+}

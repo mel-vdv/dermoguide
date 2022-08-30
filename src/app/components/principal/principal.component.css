@@ -10,17 +10,9 @@ font-style: italic;
  .souligne{
     text-decoration: underline;
 }
-.contain{
-    padding: 5vh;
-}
-.contain div{
-   width: 1000px;
-    margin: auto;
-   
-}
+
 h3{
     margin: 0;
-    font-size: 1.5vw;
     margin-top: 3vh;
 }
 .bleu{
@@ -36,7 +28,7 @@ h3{
     color: black;
 }
 #sessionhaut{
-    width: 1100px;
+    
     box-sizing: border-box;
     height: 100px;
     border-bottom:rgb(236,156,47) solid 2px;
@@ -44,9 +36,8 @@ h3{
     display: flex; 
     align-items: center; justify-content: center;
 }
+
 #sessionbas{
-    width: 600px;
-    height: 100px;
     display: flex; 
     align-items: center; justify-content: center;
 }
@@ -57,8 +48,7 @@ img[alt='fleche']{
 .bouton{
     box-sizing: border-box;
     display: flex; align-items: center;justify-content: center;
-    max-width:25vw;
-    height: 5vh;
+    
     font-weight: 600;
     color: white;
     padding: 3mm;
@@ -88,20 +78,96 @@ img[alt='point']{
         display: block;
     }
 
-
+.text span{
+    font-weight: 700;
+}
+.gd{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .text{
     padding: 3vh;
     font-weight: 500;
     font-size: 1.5vh;
     text-align: justify;
 }
-.text span{
-    font-weight: 700;
-}
+@media screen and (max-width:999px){
+ 
+    
+    .text{
+    width: 90vw;
+    padding: 4vw;
+    margin: 0;
+    word-wrap: break-word;
+    font-size: 3vw;
 
-.gd{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    }
+    .contain div{
+        margin:0;
+        width: 85vw;
+    }
+    .contain h3{
+        font-size: 5vw;
+        padding-left: 5vw;
+        padding-top: 5vw;
+        margin: 0;
+    }
+    .bouton{
+ max-width:65vw;
+ height: 5vh;
+ font-size: 4vw;
+    }
+    #sessionhaut{
+        width: 100vw;
+        height: 12vw;
+    }
+    #sessionbas{
+        width: 90vw;
+        height: 12vw;
+    }
+    img[alt='fleche']{
+        width: 9vw;
+    }  
+     .gd{
+        flex-direction: column;
+    }
+    img[alt='anne'], img[alt='marronnier']{
+        width: 45vw;
+        display: block;
+        margin: auto;
+    }
+}
+@media screen and (min-width:1000px){
+ 
+   
+    .text{
+        padding: 3vh;
+        font-weight: 500;
+        font-size: 1.5vh;
+        text-align: justify;
+    }
+    .bouton{
+        max-width:25vw;
+    height: 5vh;
+    }
+    .contain{
+        padding: 5vh;
+    }
+    .contain div{
+   width: 1000px;
+    margin: auto;
+}
+.contain h3{
+    font-size: 1.5vw;
+}
+#sessionhaut{
+    width: 1100px;
+    height: 100px;
+}
+#sessionbas{
+    width: 600px;
+    height: 100px;
+}
 }

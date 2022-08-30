@@ -18,8 +18,7 @@ h1{
     font-family: 'ethnocentric';
    padding-top: 4vh;
 }
-h2{font-size: 1vw; font-weight: 700;
-padding-bottom: 4vh;}
+
 
 .navbarre{
     width: 1000px;
@@ -38,4 +37,20 @@ margin-right:1.5vw;
 }
 .navbarre div:hover{
     color: rgba(255,255,255,0.5);
+}
+
+@media screen and (max-width:999px){
+    .navbarre div{
+        font-size: 3vw;
+    }
+    h2{
+        font-size: 2vh;
+        font-weight: 700;
+        padding-bottom: 3vh;
+    }
+
+}
+@media screen and (min-width:1000px){
+    h2{font-size: 1vw; font-weight: 700;
+        padding-bottom: 4vh;}
 }
